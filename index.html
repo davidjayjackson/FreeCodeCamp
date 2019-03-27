@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cat Photo App</title>
+  
+</head>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+<style>
+    .blue-text{color:blue; }
+    .red-text{color:rgb(114, 13, 13);}
+    p {font-size: 16px;
+        font-family: monospace ;
+    }
+    h2{font-family: Lobster, monospace}
+    .smaller-image{width: 200px;}
+</style>
+<body>
+    <h2 class="red-text">CatPhotoApp</h2>
+    <main>
+        <p class='red-text'>
+        View More
+            <a href="#">Cat photos</a>
+        </p>
+        <a href="#"></a><img class="smaller-image" src="https://bit.ly/fcc-relaxing-cat" alt="lazy Cat">
+<div>
+        <p>Three things cats like</p>
+<ul>
+    <li>Milk</li>
+    <li>Mice</li>
+    <li>Yarn</li>
+</ul>
+<p>Three things cats hate</p>
+<ol>
+    <li>Water</li>
+    <li>Dogs</li>
+    <li>Democrats</li>
+</ol>
+</div>
+<form action="/submit-cat-photo">
+
+<label id="indoor" >
+    <input id="indoor" type="radio" name="indoor-outdoor" checked >Indoor</label>
+<label id="outdoor">
+    <input type="radio" name="indoor-outdoor" id="outdoor">Outdoor</label><br>
+<label for="loving">
+    <input type="checkbox" name="personality" id="loving" checked> Loving
+</label> 
+<label for="funny">
+    <input type="checkbox" name="personality" id="funny">Funny
+</label>
+<label for="sleepy"><input type="checkbox" name="personality" id="sleepy">Sleepy</label><br>
+<input type="text" placeholder="cat photo URL" required>
+
+<button type="submit">Submit</button><br>
+
+</form>
+    </main>
+</body>
+
+</html>
