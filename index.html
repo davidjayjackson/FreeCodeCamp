@@ -7,9 +7,13 @@
     <title>Cat Photo App</title>
   
 </head>
+<!-- Google fonts -->
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-
-<style>
+<link href="./001Basic.css" rel="stylesheet" type="text/css">
+<!--Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<!--
+<style >
     .blue-text{color:blue; }
     .red-text{color:rgb(114, 13, 13);}
     p {font-size: 16px;
@@ -18,6 +22,7 @@
     h2{font-family: Lobster, monospace}
     .smaller-image{width: 200px;}
 </style>
+-->
 <body>
     <h2 class="red-text">CatPhotoApp</h2>
     <main>
@@ -25,8 +30,8 @@
         View More
             <a href="#">Cat photos</a>
         </p>
-        <a href="#"></a><img class="smaller-image" src="https://bit.ly/fcc-relaxing-cat" alt="lazy Cat">
-<div>
+        <a href="#"></a><img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="lazy Cat">
+<div class="silver-background">
         <p>Three things cats like</p>
 <ul>
     <li>Milk</li>
@@ -40,7 +45,8 @@
     <li>Democrats</li>
 </ol>
 </div>
-<form action="/submit-cat-photo">
+<form id="cat-photo-form" 
+action="/submit-cat-photo">
 
 <label id="indoor" >
     <input id="indoor" type="radio" name="indoor-outdoor" checked >Indoor</label>

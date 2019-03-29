@@ -1,0 +1,20 @@
+    .blue-text{color:blue; }
+    .red-text{color:rgb(114, 13, 13);}
+    p {font-size: 16px;
+        font-family: monospace ;
+    }
+    h2{font-family: Lobster, monospace}
+    .smaller-image{width: 200px;}
+    .thick-green-border{
+        border-color: green;
+        border-width: 10px;
+        border-style:   solid;
+        border-radius: 50%;
+    }
+    .silver-background{
+        background-color: silver;
+    }
+    #cat-photo-form{
+        background-color: green;
+    }
+    
